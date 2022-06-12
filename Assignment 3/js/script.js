@@ -1,5 +1,6 @@
 // WEB303 Assignment 3
 // Gurjant Singh
+<<<<<<< Updated upstream
 
      function getDataByJson(){
         $.getJSON("data/glitchTeam.json").done(function(member){
@@ -33,3 +34,5 @@
     $(function(){
         //getDataByJson();
 getDataByAjax();    })
+=======
+>>>>>>> Stashed changes
