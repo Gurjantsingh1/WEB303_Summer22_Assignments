@@ -25,10 +25,6 @@ $(function () {
             $activePanel.removeClass("active"); 
             $activeTab.removeClass("active"); 
             $activePanel = $(clickedPanelId).addClass("active"); 
-           
-           
-            
-    
             $activeTab = $clickedTabLink.parent().addClass("active");
           }
         });
