@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    background-image: linear-gradient(to right, #8360c3, #2ebf91);
 }
 body{
     margin: 0;
@@ -15,4 +16,28 @@ body{
   .accordion-panel {
     display: none;
   }
-  
+
+  a{
+    text-decoration: none;
+    color: Black;
+
+  }
+  .tab-list {
+    display: flex;
+    list-style: none;
+    border: 2px black;
+  }
+  .tab-list li{
+    padding: 5px;
+    margin: 5px;
+  }
+  .tab-list .active{
+    background-color: rgb(135, 154, 50);
+  }
+  header ,footer{
+    background-color: brown ;
+    text-align: center;
+  }
+  .accordion{
+    list-style: none;
+  }
