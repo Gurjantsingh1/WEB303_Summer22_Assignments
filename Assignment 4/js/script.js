@@ -1,10 +1,3 @@
 /*
- {Gurjant singh}
+ {Your name goes here}
 */
-$(function () {
-    $(".accordion").on("click", ".accordion-control", function (e) {
-      e.preventDefault();
-      $(this).next(".accordion-panel").not(":animated").slideToggle();
-    });
-  });
-  
