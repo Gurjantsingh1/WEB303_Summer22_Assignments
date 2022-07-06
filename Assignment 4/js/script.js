@@ -7,6 +7,7 @@ $(function () {
     $(".accordion").on("click", ".accordion-control", function (e) {
       e.preventDefault();
       $(this).next(".accordion-panel").not(":animated").slideToggle();
+
     });
     $(".tab-list").each(function () {
         
@@ -17,7 +18,7 @@ $(function () {
         var $activePanel = $($activePanelId);
        
         $this.on("click", ".tab-control", function (e) {
-         
+         $(".accordion-panel").slideToggle
           e.preventDefault(); 
           var $clickedTabLink = $(this); 
           var clickedPanelId = this.hash; 
